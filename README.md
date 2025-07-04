@@ -26,14 +26,14 @@ Understand the role of VPNs in protecting online privacy and ensuring secure com
 - Installed the VPN software and logged into the application.
 
 ### 4. 🌐 Connection:
-- Connected to the **"India - Free #1"** server.
+- Connected to the **"Japan - Free #1"** server.
 - VPN status: **Connected**
 
   ![connect](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-3.png)
 
 ### 5. ✅ IP Address Check:
 - Before VPN: My real IP showed my actual location.
-- After VPN: New IP location changed to Switzerland (Proton's Free IP).
+- After VPN: New IP location changed to Japan (Proton's Free IP).
 - Tool used: [https://whatismyipaddress.com](https://whatismyipaddress.com)
 
   ![check ip](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-4.png)
@@ -43,8 +43,6 @@ Understand the role of VPNs in protecting online privacy and ensuring secure com
 - All traffic routed through VPN tunnel (AES-256 encrypted).
 
 ### 7. IP/DNS Leak Tests
-whatismyipaddress.com:
-
 Post-VPN IP: 103.125.235.22 (Tokyo, Japan).
 
 DNSLeakTest:
@@ -113,19 +111,7 @@ Do Not Track: Disabled (consider enabling for extra privacy).
 
 ---
 
-## 📘 Interview Questions to Expect:
-
-1. What is a VPN and how does it work?
-2. How does a VPN protect your online data?
-3. What are the differences between paid and free VPNs?
-4. Can a VPN guarantee complete anonymity?
-5. Why is DNS leak protection important?
-6. What encryption standards are used in VPNs?
-
----
-
 ## 🏁 Final Outcome:
 - ✅ Successfully set up and tested ProtonVPN
 - ✅ Verified IP masking and encrypted traffic
 - ✅ Understood VPN privacy strengths and limitations
-
