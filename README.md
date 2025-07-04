@@ -29,20 +29,20 @@ Understand the role of VPNs in protecting online privacy and ensuring secure com
 - Connected to the **"India - Free #1"** server.
 - VPN status: **Connected**
 
-  ![connect]()
+  ![connect](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-3.png)
 
 ### 5. ✅ IP Address Check:
 - Before VPN: My real IP showed my actual location.
 - After VPN: New IP location changed to Switzerland (Proton's Free IP).
 - Tool used: [https://whatismyipaddress.com](https://whatismyipaddress.com)
 
-  ![connect]()
+  ![check ip](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-4.png)
 
 ### 6. 🔐 Encrypted Traffic Test:
 - Browsed `https://example.com` and verified it loaded securely via HTTPS.
 - All traffic routed through VPN tunnel (AES-256 encrypted).
 
-### 7. IP/DNS Leak Tests (t8-2.png, t8-6.png)
+### 7. IP/DNS Leak Tests
 whatismyipaddress.com:
 
 Post-VPN IP: 103.125.235.22 (Tokyo, Japan).
@@ -53,18 +53,18 @@ All DNS servers belong to ProtonVPN (Tokyo).
 
 ✅ No leaks detected.
 
-  ![connect]()
+  ![check](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-6.png)
 
-### 8. WebRTC Leak Test (t8-7.png)
+### 8. WebRTC Leak Test
 WebRTC IP: Matches VPN IP (103.125.235.22).
 
 Result: No Leak.
 
 ✅ Success: WebRTC doesn’t expose your real IP.
 
-  ![connect]()
+  ![check](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-7.png)
 
-### 9. HTTPS Encryption & Browser Privacy (t8-5.png)
+### 9. HTTPS Encryption & Browser Privacy
 Browser Check:
 
 IP: 103.125.x.x (Tokyo, Japan) → VPN is masking IP.
@@ -73,7 +73,7 @@ Tor: Not in use (expected with VPN).
 
 Do Not Track: Disabled (consider enabling for extra privacy).
 
-  ![connect]()
+  ![check](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-5.png)
 
 ### 10. 🔄 Disconnection & Speed Comparison:
 - Disconnected VPN and tested browsing:
@@ -81,8 +81,8 @@ Do Not Track: Disabled (consider enabling for extra privacy).
   - VPN OFF: Regular speed resumed.
 - IP address returned to original.
 
-  ![connect]()
-
+  ![check](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-8B.png)
+  ![check](https://github.com/Amish-C-K/Elevate-Labs--task8/blob/main/images/t8-8A.png)
 
 ## 🔐 VPN Encryption & Privacy Features
 
