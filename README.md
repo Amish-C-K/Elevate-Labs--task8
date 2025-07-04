@@ -29,27 +29,60 @@ Understand the role of VPNs in protecting online privacy and ensuring secure com
 - Connected to the **"India - Free #1"** server.
 - VPN status: **Connected**
 
+  ![connect]()
+
 ### 5. ✅ IP Address Check:
 - Before VPN: My real IP showed my actual location.
 - After VPN: New IP location changed to Switzerland (Proton's Free IP).
 - Tool used: [https://whatismyipaddress.com](https://whatismyipaddress.com)
 
+  ![connect]()
+
 ### 6. 🔐 Encrypted Traffic Test:
 - Browsed `https://example.com` and verified it loaded securely via HTTPS.
 - All traffic routed through VPN tunnel (AES-256 encrypted).
 
-### 7. 🔄 Disconnection & Speed Comparison:
+### 7. IP/DNS Leak Tests (t8-2.png, t8-6.png)
+whatismyipaddress.com:
+
+Post-VPN IP: 103.125.235.22 (Tokyo, Japan).
+
+DNSLeakTest:
+
+All DNS servers belong to ProtonVPN (Tokyo).
+
+✅ No leaks detected.
+
+  ![connect]()
+
+### 8. WebRTC Leak Test (t8-7.png)
+WebRTC IP: Matches VPN IP (103.125.235.22).
+
+Result: No Leak.
+
+✅ Success: WebRTC doesn’t expose your real IP.
+
+  ![connect]()
+
+### 9. HTTPS Encryption & Browser Privacy (t8-5.png)
+Browser Check:
+
+IP: 103.125.x.x (Tokyo, Japan) → VPN is masking IP.
+
+Tor: Not in use (expected with VPN).
+
+Do Not Track: Disabled (consider enabling for extra privacy).
+
+  ![connect]()
+
+### 10. 🔄 Disconnection & Speed Comparison:
 - Disconnected VPN and tested browsing:
   - VPN ON: Slightly slower due to encryption overhead.
   - VPN OFF: Regular speed resumed.
 - IP address returned to original.
 
----
+  ![connect]()
 
-## 🖼️ Screenshot (VPN Connected & IP Verified)
-> *(Attach screenshot here showing ProtonVPN connected and new IP on whatismyipaddress.com)*
-
----
 
 ## 🔐 VPN Encryption & Privacy Features
 
