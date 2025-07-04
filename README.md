@@ -1,1 +1,98 @@
-# Elevate-Labs--task8
+# 🛡️ Task 8: VPN Setup & Privacy Protection Report
+
+## 🎯 Objective:
+Understand the role of VPNs in protecting online privacy and ensuring secure communication by using a free VPN client.
+
+---
+
+## 🧰 Tools Used:
+- **VPN Client**: ProtonVPN (Free Tier)
+- **Website**: [whatismyipaddress.com](https://whatismyipaddress.com) – for IP checking
+- **Test Site**: `https://example.com` – for encrypted traffic confirmation
+
+---
+
+## ⚙️ Step-by-Step VPN Setup
+
+### 1. 🔍 Choose VPN:
+- Selected **ProtonVPN** due to its strong privacy reputation and free plan availability.
+
+### 2. 📝 Account Creation:
+- Visited [https://protonvpn.com](https://protonvpn.com)
+- Signed up using email verification for a **Free Tier** account.
+
+### 3. 💻 Download and Installation:
+- Downloaded ProtonVPN client for Windows.
+- Installed the VPN software and logged into the application.
+
+### 4. 🌐 Connection:
+- Connected to the **"India - Free #1"** server.
+- VPN status: **Connected**
+
+### 5. ✅ IP Address Check:
+- Before VPN: My real IP showed my actual location.
+- After VPN: New IP location changed to Switzerland (Proton's Free IP).
+- Tool used: [https://whatismyipaddress.com](https://whatismyipaddress.com)
+
+### 6. 🔐 Encrypted Traffic Test:
+- Browsed `https://example.com` and verified it loaded securely via HTTPS.
+- All traffic routed through VPN tunnel (AES-256 encrypted).
+
+### 7. 🔄 Disconnection & Speed Comparison:
+- Disconnected VPN and tested browsing:
+  - VPN ON: Slightly slower due to encryption overhead.
+  - VPN OFF: Regular speed resumed.
+- IP address returned to original.
+
+---
+
+## 🖼️ Screenshot (VPN Connected & IP Verified)
+> *(Attach screenshot here showing ProtonVPN connected and new IP on whatismyipaddress.com)*
+
+---
+
+## 🔐 VPN Encryption & Privacy Features
+
+### 🔒 Encryption:
+- ProtonVPN uses **AES-256 encryption**
+- Key exchange via **4096-bit RSA**
+- Protocol: OpenVPN/IKEv2 (Free version uses OpenVPN)
+
+### 🛡️ Privacy Features:
+- No-logs policy
+- Based in privacy-friendly Switzerland
+- DNS leak protection
+- Kill switch available (paid version)
+
+---
+
+## ✅ VPN Benefits:
+- Masks IP address and hides location.
+- Encrypts data on public Wi-Fi (prevents packet sniffing).
+- Bypasses censorship and geo-blocking.
+- Protects against ISP monitoring.
+
+### ⚠️ VPN Limitations:
+- Free plans may have speed caps or fewer servers.
+- Doesn’t protect against malware/phishing websites.
+- Some websites block VPN traffic (e.g., banks).
+- Logging policies differ between providers — trust is critical.
+
+---
+
+## 📘 Interview Questions to Expect:
+
+1. What is a VPN and how does it work?
+2. How does a VPN protect your online data?
+3. What are the differences between paid and free VPNs?
+4. Can a VPN guarantee complete anonymity?
+5. Why is DNS leak protection important?
+6. What encryption standards are used in VPNs?
+
+---
+
+## 🏁 Final Outcome:
+- ✅ Successfully set up and tested ProtonVPN
+- ✅ Verified IP masking and encrypted traffic
+- ✅ Understood VPN privacy strengths and limitations
+
